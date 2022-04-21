@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.contenedor {
+  height: 90vh; }
+
+body {
+  font-family: Georgia, times, serif;
+  color: #333333;
+  font-size: 1.2rem;
+  margin: 0;
+  position: relative;
+  min-height: 100vh; }
+
+p {
+  margin-bottom: 1.6rem;
+  text-align: center; }
+
+.container {
+  width: 85%;
+  max-width: auto;
+  margin: 0 auto; }
+
+.header {
+  background-image: linear-gradient(to bottom, blue, whitesmoke);
+  padding: 2rem 0; }
+
+.header a {
+  color: white;
+  text-decoration: none; }
+
+.logo-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.logo {
+  letter-spacing: 15px;
+  font-size: 1.2rem;
+  text-align: center; }
+
+.navegation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .navegation ul li {
+    display: inline-block; }
+    .navegation ul li:hover {
+      background-color: rgba(128, 128, 128, 0.63);
+      transform: scale(1.1); }
+  .navegation ul a {
+    display: block;
+    padding: 0.5rem 3rem; }
+
+.mainIndex {
+  justify-content: center; }
+  .mainIndex h1 {
+    font-size: 2rem;
+    margin: 2rem;
+    padding: 1rem;
+    text-align: center; }
+  .mainIndex .mainP {
+    text-align: center;
+    margin: 2rem; }
+
+.imgAuto {
+  display: flex;
+  justify-content: space-around;
+  text-align: center; }
+
+img {
+  width: 400px;
+  height: 400px; }
+
+footer {
+  background-image: linear-gradient(to top, grey, whitesmoke);
+  text-align: center;
+  padding: 3rem 0; }
+  footer h2 {
+    font-size: medium;
+    padding: 10px;
+    text-align: center; }
+  footer h3 {
+    font-size: small;
+    padding: 10px;
+    text-align: center; }
